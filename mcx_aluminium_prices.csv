@@ -1,0 +1,3368 @@
+Date,Time,Timestamp,April 2025_Price,April 2025_Rate_Change,May 2025_Price,May 2025_Rate_Change,June 2025_Price,June 2025_Rate_Change
+2025-04-16,12:36:15,2025-04-16 12:36:15,220.62,-0.35%,223.34,-0.34%,225.4,0.55%
+2025-04-16,12:38:10,2025-04-16 12:38:10,220.75,0.68%,222.38,0.02%,225.12,-0.76%
+2025-04-16,12:38:18,2025-04-16 12:38:18,221.87,0.66%,223.27,0.19%,222.6,0.49%
+2025-04-16,12:40:49,2025-04-16 12:40:49,220.69,-0.62%,221.63,-0.6%,225.44,0.39%
+2025-04-16,12:49:54,2025-04-16 12:49:54,222.63,0.52%,222.46,-0.69%,222.76,-0.73%
+2025-04-16,12:58:35,2025-04-16 12:58:35,222.88,0.37%,222.97,-0.03%,223.04,0.06%
+2025-04-16,13:04:16,2025-04-16 13:04:16,222.1,-0.42%,223.11,0.08%,224.73,0.3%
+2025-04-16,13:09:13,2025-04-16 13:09:13,220.71,-0.69%,223.16,0.07%,225.11,0.29%
+2025-04-16,13:18:02,2025-04-16 13:18:02,221.91,0.24%,221.5,-0.64%,223.44,-0.43%
+2025-04-16,13:21:16,2025-04-16 13:21:16,230.45,"
+
+      window.addEventListener('message', receiveMessage, false);
+      function receiveMessage(evt) {
+        try {
+        const isdatasource = evt.data && typeof (evt.data) == 'string' ? ( typeof (JSON.parse(evt.data).data_source) !== 'undefined'? JSON.parse(evt.data).data_source.match(/iframe/):false) : (typeof (evt.data.data_source) !== 'undefined'? evt.data.data_source.match(/iframe/):false)
+        if(isdatasource){
+        var evt_data = typeof (evt.data) == 'string' ? JSON.parse(evt.data): evt.data;
+        dataLayer.push(evt_data)
+        }
+         } catch (error) { 
+          console.log("""", error);
+          }
+      }
+    
+    
+     
+      
+      
+      if(navigator.userAgent.toLowerCase().indexOf('lighthouse') < 0 && navigator.userAgent.toLowerCase().indexOf('speed insights') < 0) {
+
+        function downloadJSAtOnload() {
+          try {
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.defer=true;j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TPKFC6');
+          } catch(err) {
+            console.log(""JS GTM error"", err);
+          }
+        }   
+
+        if(window.addEventListener)window.addEventListener(""load"",downloadJSAtOnload,!1);else if(window.attachEvent)window.attachEvent(""onload"",downloadJSAtOnload);else window.onload=downloadJSAtOnload;
+      }
+      
+      
+    
+    
+    
+     var clevertap = {event:[], profile:[], account:[], onUserLogin:[], notifications:[], privacy:[]};
+    // replace with the CLEVERTAP_ACCOUNT_ID with the actual ACCOUNT ID value from your Dashboard -> Settings page
+    clevertap.account.push({""id"": ""R74-5R4-6W5Z""});
+    clevertap.privacy.push({optOut: false}); //set the flag to true, if the user of the device opts out of sharing their data
+    clevertap.privacy.push({useIP: false}); //set the flag to true, if the user agrees to share their IP data
+    (function () {
+        var wzrk = document.createElement('script');
+        wzrk.type = 'text/javascript';
+        wzrk.async = true;
+        wzrk.src = ('https:' == document.location.protocol ? 'https://d2r1yp2w7bby2u.cloudfront.net' : 'http://static.clevertap.com') + '/js/clevertap.min.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wzrk, s);
+      })();
+   
+   
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          Aluminium Price Today: MCX Aluminium Rate Today Live | 5paisa
+        
+
+
+
+
+
+
+
+
+
+    
+	
+        
+    
+  
+  
+  
+  
+                              !function(e){var n=""https://s.go-mpulse.net/boomerang/"";if(""False""==""True"")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n=""https://s2.go-mpulse.net/boomerang/"";if(window.BOOMR_API_key=""4PPDE-S3QLQ-M7K65-SAQPZ-HPDKT"",function(){function e(){if(!o){var e=document.createElement(""script"");e.id=""boomr-scr-as"",e.src=window.BOOMR.url,e.async=!0,i.parentNode.appendChild(e),o=!0}}function t(e){o=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?""if"":""i"",t=function(e,n){var t=d.createElement(""script"");t.id=n||""boomr-if-as"",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod=""s"",void t(i.parentNode,""boomr-async"");a=document.createElement(""IFRAME""),a.src=""about:blank"",a.title="""",a.role=""presentation"",a.loading=""eager"",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display=""none"",i.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src=""javascript:var d=document.open();d.domain='""+n+""';void(0);"",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write(""<bo""+""dy onload='document._boomrl();'>"");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener(""load"",O._boomrl,!1);else if(O.attachEvent)O.attachEvent(""onload"",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+""4PPDE-S3QLQ-M7K65-SAQPZ-HPDKT"";var i=document.currentScript||document.getElementsByTagName(""script"")[0],o=!1,r=document.createElement(""link"");if(r.relList&&""function""==typeof r.relList.supports&&r.relList.supports(""preload"")&&""as""in r)window.BOOMR.snippetMethod=""p"",r.href=window.BOOMR.url,r.rel=""preload"",r.as=""script"",r.addEventListener(""load"",e),r.addEventListener(""error"",function(){t(!0)}),setTimeout(function(){if(!o)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),i.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener(""load"",a,!1);else if(window.attachEvent)window.attachEvent(""onload"",a)}}(),"""".length>0)if(e&&""performance""in e&&e.performance&&""function""==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""""==""true""?1:0,t="""",a=""orewtcrrfsfmcz77me4a-f-5acea2a0e-clientnsv4-s.akamaihd.net"",i=""false""==""true""?2:1,o={""ak.v"":""39"",""ak.cp"":""1350069"",""ak.ai"":parseInt(""954227"",10),""ak.ol"":""0"",""ak.cr"":34,""ak.ipv"":4,""ak.proto"":""h2"",""ak.rid"":""495afbd9"",""ak.r"":32607,""ak.a2"":n,""ak.m"":""dsca"",""ak.n"":""essl"",""ak.bpcip"":""116.73.105.0"",""ak.cport"":58252,""ak.gh"":""49.44.138.189"",""ak.quicv"":"""",""ak.tlsv"":""tls1.3"",""ak.0rtt"":"""",""ak.0rtt.ed"":"""",""ak.csrc"":""-"",""ak.acc"":"""",""ak.t"":""1744789816"",""ak.ak"":""hOBiQwZUYzCg5VSAfCLimQ==NDQ1Zp6pyLauQqHonipEVrGM/W8CLN81tpHjrBMAysu46RQIuydvaM/YdTUDJBbnEFVeUSUIyw9+1/xxAkQCO+Fb4Cg1f9F9dpQkaj38pGvkmglnmRQACMGtQ21R3Mv73I78Lf4maG9mHMUmtkkkx9CuTNqBVnT+wO1GH2+rtbWl3ARK3WjyJjIkCczmRKHgY1tXWd7HhJwpYgpVUhrt5a9I4n7xZ0fMaSzSQpcze8Bb2COfCdxKwHVPppiK4KueFsSrcPqByv7AIC9W4A0K2clTKZXvokzojKUz5UEGPr65OGEi/L2GGfDWWoWCYkd83Zhtr9QDcGlh1qaCjVF/ljpoPElFxCNB6bNaDnUWBBSfVBcP3uZQTHYryYZVaHfmU5Lbpk+m9mc93D1wu3N0f2igh+mBU1E/Fu4l94OFYnk="",""ak.pv"":""85"",""ak.dpoabenc"":"""",""ak.tf"":i};if(""""!==t)o[""ak.ruds""]=t;var r={i:!1,av:function(n){var t=""http.initiator"";if(n&&(!n[t]||""spa_hard""===n[t]))o[""ak.feo""]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(o)},rv:function(){var e=[""ak.bpcip"",""ak.cport"",""ak.cr"",""ak.csrc"",""ak.gh"",""ak.ipv"",""ak.m"",""ak.n"",""ak.ol"",""ak.proto"",""ak.quicv"",""ak.tlsv"",""ak.0rtt"",""ak.0rtt.ed"",""ak.r"",""ak.acc"",""ak.t"",""ak.tf""];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:o,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e(""before_beacon"",r.av,null,null),e(""onbeacon"",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);.nv-animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.nv-animated.infinite{-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite}.nv-animated.hinge{-webkit-animation-duration:2s;animation-duration:2s}.nv-animated.bounceIn,.nv-animated.bounceOut,.nv-animated.flipOutX,.nv-animated.flipOutY{-webkit-animation-duration:.75s;animation-duration:.75s}
+  
+
+         {""@context"":""https://schema.org"",""@type"":""BreadcrumbList"",""itemListElement"":[{""@type"":""ListItem"",""position"":1,""name"":""5Paisa Homepage"",""item"":""https://www.5paisa.com""},{""@type"":""ListItem"",""position"":2,""name"":""Commodity Trading"",""item"":""https://www.5paisa.cominvestment-products/commodity-trading""},{""@type"":""ListItem"",""position"":3,""name"":""Mcx aluminium price"",""item"":""https://www.5paisa.com/commodity-trading/mcx-aluminium-price""}]}
+     
+         
+        
+        <iframe src=""https://www.googletagmanager.com/ns.html?id=GTM-TPKFC6""
+        height=""0"" width=""0"" style=""display:none;visibility:hidden""></iframe>
+        
+        
+      
+    
+	
+									    
+						
+				
+					
+													  
+				
+					
+				
+			
+
+
+												
+																					    
+
+
+
+                
+                
+                Invest
+                
+                
+                                Investment Products
+                                
+                                
+                                
+                                
+                                
+                                    Stocks
+                                MTFs, advanced charts, advisory & more—right at your fingertips.
+                                
+                                
+                            
+                                
+                                
+                                
+                                    Mutual Funds
+                                Invest in top performing direct mutal funds at 0% commission
+                                
+                                
+                            
+                                
+                                
+                                
+                                    IPOs
+                                Apply for IPOs within few clicks!
+                                
+                                
+                            
+                                
+                                
+                                
+                                    NCD
+                                Invest in fixed-income instrument with low risk
+                                
+                                
+                            
+                                
+                                
+                                
+                                    ETF
+                                Enjoy easy diversification with flexible investment
+                                
+                                
+                            
+                                
+                                
+                                
+                                    US Stocks
+                                Diversify into US Stocks & ETFs seamlessly!
+                                
+                                
+                            
+                                Tools
+                                
+                                
+                                
+                                
+                                
+                                    Brokerage Calculator
+                                
+                                
+                                
+                            
+                                
+                                
+                                
+                                    SIP Calculator
+                                
+                                
+                                
+                            
+                                
+                                
+                                
+                                    Stock Comparison
+                                
+                                
+                                
+                            
+                                
+                                
+                                
+                                    Stock Screener
+                                
+                                
+                                
+                            
+                                
+                                
+                                
+                                    ELSS Calculator
+                                
+                                
+                                
+                            
+                                
+                                
+                                
+                                    SWP Calculator
+                                
+                                
+                                
+                            
+                                All Calculators
+                                    
+                                
+                            
+                Trade
+                
+                
+                                Trading Products
+                                
+                                
+                                
+                                
+                                
+                                    Future & Options
+                                Trade F&O contracts across segments along with far expiry contracts
+                                
+                                
+                            
+                                
+                                
+                                
+                                    Commodity
+                                Diversify your portfolios beyond traditional securities
+                                
+                                
+                            
+                                Tools
+                                
+                                
+                                
+                                
+                                
+                                    Margin Calculator
+                                
+                                
+                                
+                            
+                                
+                                
+                                
+                                    Currency Calculator
+                                
+                                
+                                
+                            
+                                
+                                
+                                
+                                    Stock Screener
+                                
+                                
+                                
+                            
+                                All Calculators
+                                    
+                                
+                            
+                Platforms
+                
+                
+                                5paisa Platforms
+                                
+                                
+                                
+                                
+                                
+                                    5paisa Trading App
+                                A go-to mobile app for savvy traders and investors!
+                                
+                                
+                            
+                                
+                                
+                                
+                                    Web Platform 
+                                A desktop trading platform for a seamless big-screen trading experience.
+                                
+                                
+                            
+                                
+                                
+                                
+                                    FnO360
+                                A trading terminal designed exclusively for derivatives traders.
+                                
+                                
+                            
+                                
+                                
+                                
+                                    5paisa EXE
+                                Go-to desktop-based platform for the fast and agile trader
+                                
+                                
+                            
+                                
+                                
+                                
+                                    Xstream APIs
+                                Unleash the Future of Trading with our Free, Fast and Simple API Platform
+                                
+                                
+                            
+                                
+                                
+                                
+                                    Trade on Charts
+                                Trade directly from TradingView charts with Tv.5paisa.
+                                
+                                
+                            
+                                
+                                
+                                
+                                    Publisher Js
+                                Seamlessly add the 5paisa trade button to your website with minimal coding—absolutely FREE!
+                                
+                                
+                            
+                                
+                                
+                                
+                                    Quantower Exe
+                                Trade like a pro - Access charts, Analyse Patterns and Execute Orders.
+                                
+                                
+                            
+                Pricing
+                
+                
+                Markets
+                
+                
+                        
+                        Market MoversStocksPopular StocksIndicesIPOMutual FundsMarket Today52 Week High52 Week LowFII DIITop GainersTop LosersVolume ShockersValue ShockersOnly BuyersOnly SellersStocks to Buy TodayPenny StocksStocks Under 10Stocks Under 50Stocks Under 100Stocks Under 500BTST StocksMultibagger StocksBonusRightsSplitsDividendsLarge Cap StocksMid Cap StocksSmall Cap StocksGroup StocksNifty 50 Stock ListIndian ADRsLICTata MotorsIRFCITCTata SteelAdani EnterprisesYes BankSuzlonTCSSBIInfosysAdani PowerRelianceTata PowerIdeaJio Financial ServicesZomato Adani WilmarNSENifty 50Bank NiftyFINNIFTYNifty MidcapIndia VIXKnow More
+                                    
+                                
+                            BSESensexBSE BankexBSE SmallcapBSE MidcapBSE 100Know More
+                                    
+                                
+                            Global IndicesGift NiftyDow JonesHang SengS&P 500Nikkei 225Know More
+                                    
+                                
+                            IPOUpcoming IPOCurrent IPOClosed IPORecently Listed IPOIPO Allotment StatusIPO CalendarSME IPO CalendarCategoriesLarge Cap FundsMid Cap FundsSmall Cap FundsELSSEquityDebtAMC’sSBI Mutual FundsHDFC Mutual FundsAxis Mutual FundsICICI Pru Mutual FundNippon India Mutual FundsAll AMC's
+                                    
+                                
+                            SchemesParag Parikh Flexi CapSBI Small Cap FundSBI Contra FundNippon Small Cap FundICICI Pru Technology FundAll Schemes
+                                    
+                                
+                            
+                Learn
+                
+                
+                                Learn with us
+                                
+                                
+                                
+                                
+                                
+                                    FinSchool
+                                One-stop destination for FREE courses to master investing and trading!
+                                
+                                
+                            
+                                
+                                
+                                
+                                    Market Guide
+                                Ultimate guide to the stock market, covering investments, demat accounts, IPOs & more.
+                                
+                                
+                            
+                                
+                                
+                                
+                                    Stock Market News
+                                Track the latest trends in the Indian stock market with 5paisa.
+                                
+                                
+                            
+                                
+                                
+                                
+                                    Blogs
+                                Making the stock market simple—learn, invest, and grow!
+                                
+                                
+                            
+                                
+                                
+                                
+                                    Videos
+                                Demystify the stock market with our easy-to-understand investment videos.
+                                
+                                
+                            
+                                
+                                
+                                
+                                    5p shorts
+                                Get bite-sized stock market insights with our web stories!
+                                
+                                
+                            
+                Partner
+                
+                
+                                Partner with us
+                                
+                                
+                                
+                                
+                                
+                                    5paisa Partner Program
+                                
+                                
+                                
+                            
+
+
+	
+	
+	
+
+
+	
+		
+			Open Demat Account
+							
+					
+						
+							
+							English
+						
+						
+							
+								✕
+								
+									
+									English
+								
+								
+									
+									हिंदी
+								
+							
+						
+					
+				
+					
+		
+		
+			Invest
+                Investment Products
+                            StocksMTFs, advanced charts, advisory & more—right at your fingertips.
+                            
+                            Mutual FundsInvest in top performing direct mutal funds at 0% commission
+                            
+                            IPOsApply for IPOs within few clicks!
+                            
+                            NCDInvest in fixed-income instrument with low risk
+                            
+                            ETFEnjoy easy diversification with flexible investment
+                            
+                            US StocksDiversify into US Stocks & ETFs seamlessly!
+                            
+                    Tools
+                            Brokerage Calculator
+                            
+                            SIP Calculator
+                            
+                            Stock Comparison
+                            
+                            Stock Screener
+                            
+                            ELSS Calculator
+                            
+                            SWP Calculator
+                            
+                                All Calculators
+                                
+                                    
+                                
+                            
+                    Trade
+                Trading Products
+                            Future & OptionsTrade F&O contracts across segments along with far expiry contracts
+                            
+                            CommodityDiversify your portfolios beyond traditional securities
+                            
+                    Tools
+                            Margin Calculator
+                            
+                            Currency Calculator
+                            
+                            Stock Screener
+                            
+                                All Calculators
+                                
+                                    
+                                
+                            
+                    Platforms
+                5paisa Platforms
+                            5paisa Trading AppA go-to mobile app for savvy traders and investors!
+                            
+                            Web Platform A desktop trading platform for a seamless big-screen trading experience.
+                            
+                            FnO360A trading terminal designed exclusively for derivatives traders.
+                            
+                            5paisa EXEGo-to desktop-based platform for the fast and agile trader
+                            
+                            Xstream APIsUnleash the Future of Trading with our Free, Fast and Simple API Platform
+                            
+                            Trade on ChartsTrade directly from TradingView charts with Tv.5paisa.
+                            
+                            Publisher JsSeamlessly add the 5paisa trade button to your website with minimal coding—absolutely FREE!
+                            
+                            Quantower ExeTrade like a pro - Access charts, Analyse Patterns and Execute Orders.
+                            
+                    PricingMarkets
+                Market Movers
+                            Market Today
+                            
+                            52 Week High
+                            
+                            52 Week Low
+                            
+                            FII DII
+                            
+                            Top Gainers
+                            
+                            Top Losers
+                            
+                            Volume Shockers
+                            
+                            Value Shockers
+                            
+                            Only Buyers
+                            
+                            Only Sellers
+                            
+                    Stocks
+                            Stocks to Buy Today
+                            
+                            Penny Stocks
+                            
+                            Stocks Under 10
+                            
+                            Stocks Under 50
+                            
+                            Stocks Under 100
+                            
+                            Stocks Under 500
+                            
+                            BTST Stocks
+                            
+                            Multibagger Stocks
+                            
+                            Bonus
+                            
+                            Rights
+                            
+                            Splits
+                            
+                            Dividends
+                            
+                            Large Cap Stocks
+                            
+                            Mid Cap Stocks
+                            
+                            Small Cap Stocks
+                            
+                            Group Stocks
+                            
+                            Nifty 50 Stock List
+                            
+                            Indian ADRs
+                            
+                    Popular Stocks
+                            LIC
+                            
+                            Tata Motors
+                            
+                            IRFC
+                            
+                            ITC
+                            
+                            Tata Steel
+                            
+                            Adani Enterprises
+                            
+                            Yes Bank
+                            
+                            Suzlon
+                            
+                            TCS
+                            
+                            SBI
+                            
+                            Infosys
+                            
+                            Adani Power
+                            
+                            Reliance
+                            
+                            Tata Power
+                            
+                            Idea
+                            
+                            Jio Financial Services
+                            
+                            Zomato
+                            
+                             Adani Wilmar
+                            
+                    IndicesNSE
+                                    
+                            Nifty 50
+                            
+                            Bank Nifty
+                            
+                            FINNIFTY
+                            
+                            Nifty Midcap
+                            
+                            India VIX
+                            
+                                Know More
+                                
+                                    
+                                
+                            BSE
+                                    
+                            Sensex
+                            
+                            BSE Bankex
+                            
+                            BSE Smallcap
+                            
+                            BSE Midcap
+                            
+                            BSE 100
+                            
+                                Know More
+                                
+                                    
+                                
+                            Global Indices
+                                    
+                            Gift Nifty
+                            
+                            Dow Jones
+                            
+                            Hang Seng
+                            
+                            S&P 500
+                            
+                            Nikkei 225
+                            
+                                Know More
+                                
+                                    
+                                
+                            
+                    IPO
+                            IPO
+                            
+                            Upcoming IPO
+                            
+                            Current IPO
+                            
+                            Closed IPO
+                            
+                            Recently Listed IPO
+                            
+                            IPO Allotment Status
+                            
+                            IPO Calendar
+                            
+                            SME IPO Calendar
+                            
+                    Mutual FundsCategories
+                                    
+                            Large Cap Funds
+                            
+                            Mid Cap Funds
+                            
+                            Small Cap Funds
+                            
+                            ELSS
+                            
+                            Equity
+                            
+                            Debt
+                            AMC’s
+                                    
+                            SBI Mutual Funds
+                            
+                            HDFC Mutual Funds
+                            
+                            Axis Mutual Funds
+                            
+                            ICICI Pru Mutual Fund
+                            
+                            Nippon India Mutual Funds
+                            
+                                All AMC's
+                                
+                                    
+                                
+                            Schemes
+                                    
+                            Parag Parikh Flexi Cap
+                            
+                            SBI Small Cap Fund
+                            
+                            SBI Contra Fund
+                            
+                            Nippon Small Cap Fund
+                            
+                            ICICI Pru Technology Fund
+                            
+                                All Schemes
+                                
+                                    
+                                
+                            
+                    Learn
+                
+                            FinSchoolOne-stop destination for FREE courses to master investing and trading!
+                            
+                            Market GuideUltimate guide to the stock market, covering investments, demat accounts, IPOs & more.
+                            
+                            Stock Market NewsTrack the latest trends in the Indian stock market with 5paisa.
+                            
+                            BlogsMaking the stock market simple—learn, invest, and grow!
+                            
+                            VideosDemystify the stock market with our easy-to-understand investment videos.
+                            
+                            5p shortsGet bite-sized stock market insights with our web stories!
+                            Partner
+                
+                            5paisa Partner Program
+                            
+		
+
+		
+			Log In
+			Start SIP
+		
+
+		
+			Download app now!
+			
+				
+				
+			
+		
+
+					
+				
+			
+			
+
+
+
+
+
+																				
+                            
+
+
+	
+	
+	
+		
+	
+	
+		
+			
+				All
+					Stocks
+					Indices
+					Futures & Options
+					Mutual Funds
+					Articles
+			
+		
+		
+			
+			
+			
+				Load more
+				Load more
+				Load more
+				Load more
+				
+				
+		
+	
+	
+												
+							Open Account
+						
+						
+							Log In
+						
+						        	
+		
+			
+				
+				English
+			
+			
+				
+					
+					EN
+				
+				
+					
+					हिंदी
+				
+			
+		
+	
+						
+					
+					
+				
+			
+		
+	
+		
+							
+				
+																																								
+									
+										
+											
+																									  
+  
+    
+
+      
+            
+      
+  
+
+  
+    
+
+      
+
+
+
+
+  
+            
+      
+                  Home
+              
+            
+      Commodity Trading 
+                    
+      Aluminium Futures 30-Apr-2025
+      
+  
+    
+ 
+     
+	
+    
+         
+        
+                                                                                     Mcx Aluminium Price
+                                          
+    
+
+
+
+
+
+  
+
+
+																							
+										
+									
+								
+																																									  
+  
+    
+
+      
+               
+               >aluminium
+               
+               Open Free Demat Account with 5paisa
+               https://www.5paisa.com/open-demat-account?utm_campaign=social_sharing
+               https://www.5paisa.com/commodity-trading/mcx-aluminium-price
+               44.736842105263 
+
+                    
+                        
+                            
+                                
+                                    
+                                        
+                                            
+                                                Aluminium Price
+                                            
+                                            
+                                                
+                                                    
+                                                
+                                                
+                                                    
+                                                
+                                                
+                                                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                
+                                            
+                                        
+                                        
+                                        
+                                            	
+                                                    
+                                                       	MCX
+                                                    
+
+                                                
+                                                
+                                                	
+                                                    
+                                                       	ALUMINIUM 
+                                                    
+                                                    
+                                                        
+                                                                                                                                                                                                                                                                                                                
+                                                                ALUMINI
+                                                            
+                                                                                                                                                                                                                                        
+                                                                COPPER
+                                                            
+                                                                                                                                                                                                                                        
+                                                                COTTONCNDY
+                                                            
+                                                                                                                                                                                                                                        
+                                                                CRUDEOIL
+                                                            
+                                                                                                                                                                                                                                        
+                                                                CRUDEOILM
+                                                            
+                                                                                                                                                                                                                                        
+                                                                GOLD
+                                                            
+                                                                                                                                                                                                                                        
+                                                                GOLDGUINEA
+                                                            
+                                                                                                                                                                                                                                        
+                                                                GOLDM
+                                                            
+                                                                                                                                                                                                                                        
+                                                                GOLDPETAL
+                                                            
+                                                                                                                                                                                                                                        
+                                                                GOLDTEN
+                                                            
+                                                                                                                                                                                                                                        
+                                                                LEAD
+                                                            
+                                                                                                                                                                                                                                        
+                                                                LEADMINI
+                                                            
+                                                                                                                                                                                                                                        
+                                                                MCXBULLDEX
+                                                            
+                                                                                                                                                                                                                                        
+                                                                MENTHAOIL
+                                                            
+                                                                                                                                                                                                                                        
+                                                                NATGASMINI
+                                                            
+                                                                                                                                                                                                                                        
+                                                                NATURALGAS
+                                                            
+                                                                                                                                                                                                                                        
+                                                                SILVER
+                                                            
+                                                                                                                                                                                                                                        
+                                                                SILVERM
+                                                            
+                                                                                                                                                                                                                                        
+                                                                SILVERMIC
+                                                            
+                                                                                                                                                                                                                                        
+                                                                ZINC
+                                                            
+                                                                                                                                                                                                                                        
+                                                                ZINCMINI
+                                                            
+                                                                                                                                                
+                                                    
+                                                
+                                            
+                                            
+                                                
+                                                                                                                                                                                                
+                                                   document.querySelector('.breadcrumb > li:last-child').innerText = `${breadcrumbName('Apr 30 2025')}`;
+                                                   function breadcrumbName(params) {
+                                                    const formattedDate = new Date(params).toLocaleDateString('en-IN', {
+                                                        day : 'numeric',
+                                                        month : 'short',
+                                                        year : 'numeric'
+                                                    }).split(' ').join('-');
+                                                    const currentCommodity = document.querySelector('#ncdxSelect span').innerText;
+                                                    const capitalizeCommodity = currentCommodity.toLowerCase();
+                                                    const breadcrumbText = `${capitalizeCommodity.charAt(0).toUpperCase()+ capitalizeCommodity.slice(1)} Futures ${formattedDate}`;
+                                                    return breadcrumbText;
+                                                }
+                                                
+                                                                                                
+                                                    Apr 30 2025
+                                                                                                                                            
+                                                    May 30 2025
+                                                                                                                                            
+                                                    Jun 30 2025
+                                            
+
+                                                
+                                            
+                                        
+                                    
+                                        
+                                
+                                    
+                                        
+                                            ₹230.45
+                                            
+                                                                                                                                                                                
+                                                -1.8 (-0.78%)
+                                            
+                                        
+                                        As on 16 April, 2025 | 13:19
+                                            
+                                                
+                                                    iThe current values are delayed, open demat account for live values.
+                                                
+                                                    Open Account Now
+                                                
+                                            
+
+                                        
+                                            Aluminium Spot Price 
+                                             
+                 
+                   
+                                        
+                                    
+                                    
+                                    Performance
+                                            
+                                                
+                                                    Day Range
+                                                    
+                                                        
+                                                            Low
+                                                            229.6
+                                                        
+                                                        
+                                                            High
+                                                            231.5
+                                                        
+                                                    
+                                                    
+                                                        
+                                                            230.45
+                                                            
+                                                        
+                                                    
+                                                
+                                                
+                                                    
+                                                        
+                                                            
+                                                                Open Price
+                                                            
+                                                            
+                                                                230.95
+                                                            
+                                                        
+                                                        
+                                                        
+                                                            
+                                                                Previous Close
+                                                            
+                                                            
+                                                                232.25
+                                                            
+                                                        
+
+                                                    
+                                                
+                                            
+
+                                
+                                                                                            
+                            
+                                                            
+                                    
+                                    Aluminium is one of the most widely used metals. Its high malleability and low density make it very easy to work with. Besides, it also possesses outstanding corrosion resistance and is simple to cast, mill, and mould. Additionally, it is neither magnetic nor sparking. It is a silvery-white, lightweight metal. Its uses include being a good electrical conductor. 
+
+Hence, it is used in electrical transmission lines. Besides this, Aluminium is also used to make numerous items, such as cans, foil, culinary utensils, window frames, beer kegs, and aeroplane components.
+
+
+How are Aluminium Rates Decided? 
+
+Aluminium rates are determined based on the different grades. Qualities like resistance to corrosion and heat, good electric conduction, and having non-magnetic properties vary based on these various grades of Aluminium. This determines the rates of Aluminium as a metal. Some of the grades include
+
+1) 1xxx Aluminium Grade Series
+
+This does not have any alloying element. It consists of pure Aluminium (99%). It possesses excellent workability and corrosion resistance. Additionally, it has superior electrical and thermal conductivity but minimal strength.
+
+2) 2xxx Aluminium Grade Series
+
+This consists of Copper as its alloying element. It needs heat treatment for the best properties. This grade has high strength combined with toughness. Corrosion is possible here, and this grade is not that great for workability.
+
+3) 3xxx Aluminium Grade Series
+
+This consists of Manganese as its alloying element. It is about 20% stronger than the 1xxx series. This grade of Aluminium has moderate strength, good corrosion resistance, and workability properties.
+
+4) 4xxx Aluminium Grade Series
+
+This consists of Silicon as its alloying element. This brings down the melting point of this Aluminium grade without causing brittleness and allowing for higher wear resistance.
+
+
+What are the factors that influence the Aluminium price? 
+
+In the 1970s, people started using Aluminium as a trading commodity. It was bought and sold via standardised commodity contracts in structured and controlled markets. 
+
+Today it is traded all around the world. Some popular exchanges where Aluminium is traded are the London Metal Exchange (LME), Shanghai Futures Exchange (SHFE), and Multi Commodity Exchange Of India (MCX). 
+
+Now let's look at some factors affecting the rates of Aluminium.
+
+1) Substitution
+
+Transportation, particularly in the automotive and aerospace industries, is the biggest market for Aluminium in industrialised nations. Developments in new, lighter materials and their accessibility will ultimately lead to a decline in Aluminium's demand and, consequently, a drop in its prices.
+
+The building and construction business, where demand is still relatively high in emerging nations, and Aluminium can make up to 30% of the building materials, is the second-largest industry for Aluminium. The construction business's irregular nature affects Aluminium's price, as construction expansion drives up prices, and a decline in construction drives down prices. 
+
+
+2) Cost of electricity
+
+In general, 3 tonnes of bauxite are needed to make 1 tonne of Aluminium. About 15,000-kilowatt hours (kWh) of electricity are needed for this. Contrast this with the 11,000 kWh used annually by the typical American home. The cost and accessibility of electricity highly influence Aluminium's price. According to the U.S. Aluminium Trade Groups, electricity costs make up about 30% of the entire cost of Aluminium. In China, the energy cost is more closely related to the cost of Aluminium at 45%. Almost 2% of the world's energy production goes toward the cost of the electricity required to create Aluminium.
+
+
+3) Industry demands
+
+As previously mentioned, Aluminium is used in an astounding variety of industries and applications. This comprises machinery, construction, refrigeration, automobile, and aerospace sectors. Any of these industries' technological advancements could impact Aluminium prices. For instance, demand for Aluminium, a durable but lightweight substitute for steel, is projected to rise as green energy gains importance in transportation.
+
+The manufacturing process's use of technology may progress similarly. According to the Aluminium Association, the primary production process has been more effective since it was first used. Over the previous 20 years, it has improved by 20%. The percentage of energy-related production expenses, which significantly affect the price of Aluminium overall, would be reduced by a more effective procedure.
+
+
+4) Global economy
+
+Metals, including iron ore, nickel, Copper, and Aluminium, play significant roles in the global production and construction sectors. As a result, changes in demand and supply in these sectors can vastly affect the pricing of these metals in the market. Supply and demand could be affected by a variety of changes. The deflation of the U.S. dollar, economic decline, the rapid boom of the Chinese economy, and trade restrictions are a few examples.
+
+
+iJoin the club of lakhs of tech savvy investors!
+
+Open Account Now
+.login-warning{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;background:#fff;box-shadow:0 0 2px rgb(51 55 57 / 42%);border-radius:4px;padding:10px;margin:15px 0 20px}.login-warning.bg-pink{background-color:#fff5f6;border:1px solid #feccd6}.login-warning p{font-weight:500;font-size:14px;line-height:20px;margin-bottom:0!important;padding-left:20px;position:relative}.login-warning p span{color:#ff2565}.login-warning .warning-icon{position:absolute;top:3px;left:0;display:inline-block;width:14px;height:14px;font-size:10px;line-height:14px;font-style:normal;font-weight:500;background-color:#1f517e;color:#fff;border-radius:50%;text-align:center}.login-warning.bg-pink .warning-icon{background-color:#e31b54}.login-warning .open-account-wrapper{display:flex;flex-wrap:wrap;align-items:center;gap:10px}.login-warning .open-account-link a{font-size:16px;font-weight:700;color:#ff2565}.btn-trade{font-weight:500!important;font-size:12px!important;line-height:18px!important;color:#fff!important;background:linear-gradient(91.75deg,#1e54b1 -17.73%,#093480 123.48%);font-weight:500;display:block;text-align:center;border-radius:4px}@media (max-width:767px){.login-warning{display:block;margin:30px 0 30px}.login-warning p{padding-left:20px}.login-warning .warning-icon{width:14px;height:14px;font-size:10px;line-height:16px}.login-warning .open-account-link{margin-top:10px;text-align:center}}
+
+
+
+
+Why should you invest in Aluminium? 
+
+To reduce costs, Chinese smelters have reduced the production of Aluminium, which is an energy-intensive procedure, according to a FocusEconomics analysis from late 2021. It should be no surprise that the rising prices pushed Aluminium to levels never before seen in more than a decade. Ewa Manthey, a commodities strategist at ING, thinks China's Aluminium production will be strong throughout the year. 
+
+According to Precedence Research, the worldwide Aluminium market is expected to reach US$277.5 billion by 2030, growing at a compound annual growth rate of 5.61 per cent. For its part, Fact. M.R. estimates that the Aluminium market will exceed US$287 billion by 2032. This market segment anticipates future cast Aluminium alloy sales to be substantially boosted. Cast Aluminium alloys are now widely employed in automotive and aerospace applications, and the rising demand for electric vehicles is influencing the usage of Aluminium-tin alloys.
+
+Aluminium is expected to cost an average of US$2,276 per metric tonne (M.T.) in 2026, according to the International Monetary Fund, and US$2,400 per MT by 2035, according to the World Bank.
+
+
+Advantages of trading in Aluminium 
+
+Manufacturing contributes significantly to national GDP estimates, especially in emerging economies that are expanding quickly. Thus, trading Aluminium is a way to enhance the expansion of the global GDP.
+
+Other advantages of trading in Aluminium include the following:
+
+1. Asset diversification can be accomplished by including Aluminium in a trading portfolio and other metals and commodities. Commodity baskets, which include Aluminium, can safeguard traders from falls in other commodities in the same grouping.
+
+2. Transportation is crucial to the development of the global economy. As the economy grows, the market for Aluminium in vehicles and aircraft equipment should develop. The demand for Aluminium in transportation items should increase as a result of pro-growth policies in industrialised and developing economies.
+
+3. China accounts for a significant portion of the world's Aluminium production and consumption. Aluminium demand increased in recent years in the quickly developing Chinese economy, driven by the construction, transportation, and electronics industries. However, as China's GDP slowed, the vast supply could not be consumed by the domestic market, and Chinese producers expanded Aluminium exports to the United States and other nations. Aluminium demand in China is expected to increase if economic growth there expands even further. This can lead to a lack of supplies and higher prices.
+
+
+How to invest in Aluminium? 
+
+Now, if you are ready to start investing, you first need to make some significant choices. You need to select an investing platform and a strategy of investment that will suit your future expectations from your investment. To begin with, you can seek advice from a financial guidance expert who will list the pros and cons of each of such strategies.
+
+Strategies for investing in Aluminium include
+
+
+	Investing in Aluminium stocks
+	Investing in Aluminium ETFs
+	Investing in Aluminium futures
+	 
+
+
+                                
+                            
+                        
+                                                
+                                                        
+        
+        Aluminium FAQs
+        
+        
+            
+                
+                What is the price of Aluminium Today?
+            
+        
+        
+            The Price of Aluminium in MCX is 230.45.
+        
+    
+    
+    
+        
+            
+            How to Trade in Aluminium?
+        
+    
+    
+        Open Demat Account with 5Paisa to trade in Aluminium.
+    
+
+               
+               
+                   
+                       
+                       What is Aluminium?
+                   
+               
+               
+                   Aluminium is a lightweight, corrosion-resistant metal used in various industries.
+
+               
+           
+            
+               
+               
+                   
+                       
+                       What are Aluminium and bauxite?
+                   
+               
+               
+                   In the form of oxides and Aluminium silicates, Aluminium is the third most prevalent chemical element in the planet's crust. The primary ingredient used to make Aluminium is the mineral bauxite.
+
+               
+           
+            
+               
+               
+                   
+                       
+                       How are rainforests affected by obtaining Aluminium?
+                   
+               
+               
+                   The huge waste product and toxic red mud from Aluminium smelting are similarly bad for the environment. The gases created during the processing of Aluminium, particularly fluoride, are dangerous to plants, wildlife, and humans who live close to the smelters and can lead to respiratory illnesses, bone damage (fluorosis), skin issues, and a variety of other health dangers.
+
+               
+           
+            
+               
+               
+                   
+                       
+                       In industrial countries, what is the rate of Aluminium usage?  
+                   
+               
+               
+                   In industrialised nations, metal use is still increasing. Germany tops the list per capita consumption with 31.6 kg per person, followed by the U.S. (30 kg) and Japan (26.4 kg). Transportation accounts for the highest portion of Aluminium use worldwide at 29%, followed by construction (22%), packaging (15%), energy generation (12%), mechanical engineering, and durable consumer products (9% each).
+
+               
+           
+            
+               
+               
+                   
+                       
+                       What makes Aluminium an important source of foreign exchange, and why is it a driver of development for producing countries?
+                   
+               
+               
+                   Most of the time, the projects result in debt that flows for years to wealthy nations as interest payments. Contracts with the government-owned power company in Brazil were negotiated jointly by the Aluminium producers there. As a result, they pay less for electricity than it costs to produce. According to the governments, other perks entice businesses, including tax exemptions, duty-free input imports, and income tax exemption for foreign staff.
+
+               
+           
+             
+    
+
+                            
+                                    
+                                            Commodity Related Articles
+                                            
+                                                
+                                            
+                                    
+                                
+                                
+                                    
+                                        
+                                        
+  
+    
+
+      
+             
+                                                            Start Commodity Trading in 5 mins*
+                                                            
+                                                                
+                                                                
+                                                            
+                                                            
+                                                                
+                                                                Resend OTP
+                                                                
+                                                            
+                                                            
+                                                                Trade Now
+                                                            
+                                                           
+                                                            By proceeding, you agree to all T&C*
+                                                            hero_form
+                                                        
+      
+  
+
+                                            Performance
+                                            
+                                                
+                                                    Day Range
+                                                    
+                                                        
+                                                            Low
+                                                            229.6
+                                                        
+                                                        
+                                                            High
+                                                            231.5
+                                                        
+                                                    
+                                                    
+                                                        
+                                                            230.45
+                                                            
+                                                        
+                                                    
+                                                
+                                                
+                                                    
+                                                        
+                                                            
+                                                                Open Price
+                                                            
+                                                            
+                                                                230.95
+                                                            
+                                                        
+                                                        
+                                                            
+                                                                Previous Close
+                                                            
+                                                            
+                                                                232.25
+                                                            
+                                                        
+
+                                                    
+                                                
+                                            
+                                        
+                                    
+                                    Alumini MCX PriceAluminium MCX PriceCopper MCX PriceCottoncndy MCX PriceCrude oil MCX PriceCrude oil mini MCX PriceGold MCX PriceGold guinea MCX PriceGold m MCX PriceGold petal MCX PriceGold ten(10 gram) MCX PriceLead MCX PriceLead mini MCX PriceMcxbulldex MCX PriceMenthaoil MCX PriceNatgasmini MCX PriceNatural gas MCX PriceSilver MCX PriceSilver m MCX PriceSilvermic ahmedabad MCX PriceZinc MCX PriceZinc mini MCX Price
+                                
+                            
+                        
+                	
+                            
+	        	
+
+                
+
+                
+  {   
+      ""@context"": ""https://schema.org"",
+      ""@type"": ""FAQPage"",
+      ""mainEntity"":[            
+          { 
+          ""@type"": ""Question"",
+          ""name"": ""What is the price of Aluminium Today?"",
+          ""acceptedAnswer"": {
+              ""@type"": ""Answer"",
+              ""text"": ""The Price of Aluminium in MCX is 230.45.""
+              }                
+          },{ 
+          ""@type"": ""Question"",
+          ""name"": ""How to Trade in Aluminium?"",
+          ""acceptedAnswer"": {
+              ""@type"": ""Answer"",
+              ""text"": ""Open Demat Account with 5Paisa to trade in Aluminium.""
+              }                
+          },{ 
+          ""@type"": ""Question"",
+          ""name"": ""What is Aluminium?"",
+          ""acceptedAnswer"": {
+              ""@type"": ""Answer"",
+              ""text"": ""Aluminium is a&nbsp;lightweight, corrosion-resistant metal used in various industries.
+""
+              }                
+          },{ 
+          ""@type"": ""Question"",
+          ""name"": ""What are Aluminium and bauxite?"",
+          ""acceptedAnswer"": {
+              ""@type"": ""Answer"",
+              ""text"": ""In the form of oxides and Aluminium silicates, Aluminium is the third most prevalent chemical element in the planet's crust. The primary ingredient used to make Aluminium is the mineral bauxite.
+""
+              }                
+          },{ 
+          ""@type"": ""Question"",
+          ""name"": ""How are rainforests affected by obtaining Aluminium?"",
+          ""acceptedAnswer"": {
+              ""@type"": ""Answer"",
+              ""text"": ""The huge waste product and toxic red mud from Aluminium smelting are similarly bad for the environment. The gases created during the processing of Aluminium, particularly fluoride, are dangerous to plants, wildlife, and humans who live close to the smelters and can lead to respiratory illnesses, bone damage (fluorosis), skin issues, and a variety of other health dangers.
+""
+              }                
+          },{ 
+          ""@type"": ""Question"",
+          ""name"": ""In industrial countries, what is the rate of Aluminium usage?  "",
+          ""acceptedAnswer"": {
+              ""@type"": ""Answer"",
+              ""text"": ""In industrialised nations, metal use is still increasing. Germany tops the list per capita consumption with 31.6 kg per person, followed by the U.S. (30 kg) and Japan (26.4 kg). Transportation accounts for the highest portion of Aluminium use worldwide at 29%, followed by construction (22%), packaging (15%), energy generation (12%), mechanical engineering, and durable consumer products (9% each).
+""
+              }                
+          },{ 
+          ""@type"": ""Question"",
+          ""name"": ""What makes Aluminium an important source of foreign exchange, and why is it a driver of development for producing countries?"",
+          ""acceptedAnswer"": {
+              ""@type"": ""Answer"",
+              ""text"": ""Most of the time, the projects result in debt that flows for years to wealthy nations as interest payments. Contracts with the government-owned power company in Brazil were negotiated jointly by the Aluminium producers there. As a result, they pay less for electricity than it costs to produce. According to the governments, other perks entice businesses, including tax exemptions, duty-free input imports, and income tax exemption for foreign staff.
+""
+              }                
+          }
+      ]
+  }
+  
+
+
+    /**  Intersection Observer for chart section on scroll to position
+        tfs - 128634
+    */
+    if(document.querySelector(""#load_chart"")){
+      const target = document.querySelector('#load_chart');
+      const options = {
+        threshold: 1,
+        rootMargin: ""0px 0px -40%"",
+      }
+      function handleIntersection(entries) {
+        entries.map((entry) => {
+          if (entry.isIntersecting) {
+            console.log(""IN view"")
+			 document.getElementById(""chart-view"").innerHTML = ` <iframe src=""https://tradechart.5paisa.com/5pWebChart?type=future-curcom&period=1&range=D&appName=TTWeb&appVer=1.1.0.0&osName=TTWEB&exchange=M&exchType=D&expiry_date=30 Apr 2025&symbol=ALUMINIUM&scripCode=444530&loginId=56294446&theme=Light&source=5pWebsite"" width=""100%"" height=""350""></iframe>
+                 
+                   `;
+            observer.unobserve(target);
+          }
+        });
+      }
+      const observer = new IntersectionObserver(handleIntersection, options);
+      observer.observe(target);
+    }
+  /**  Intersection Observer for chart section on scroll to position*/
+  
+
+
+  
+
+  
+    
+
+      
+            
+let pathname = window.location.pathname;
+if(window.innerWidth <= 767 && pathname == '/stock-market-guide/ipo') {
+setTimeout(() => {
+var element = document.getElementById(""ipo_shaky_mobile"");
+element.style.display = 'flex';
+}, 2000);
+}
+
+
+      
+  
+
+
+																																																
+																																	  
+  
+    
+
+      
+            
+    
+        
+            
+                Open Free Demat Account
+                Be a part of 5paisa community - The first listed discount broker of India.
+                
+                    
+                        +91
+                        
+                  
+                    
+                    
+                        
+                        Resend OTP
+                        
+                    
+                    Open Demat Account
+                
+            
+            
+            By proceeding, you agree to all T&C*
+            footer_form
+        
+    
+    
+        .fno-inner-dropdown__content li .fno-price {
+            color: #19b5ff
+        }
+    
+
+      
+  
+
+
+															
+			
+				        			  		
+				
+			
+				
+					
+																											  
+
+            
+  
+
+        
+            
+      
+      
+
+
+         
+                                
+                    Share Market
+        
+            
+                     
+                        
+            Share Market Today
+            
+                     
+                        Penny Stocks
+        
+                            Breakout Stocks
+        
+                            Top Gainers
+        
+                            Top Losers
+        
+                            52 Week High
+        
+                            52 Week Low
+        
+                            Large Cap Stocks
+        
+                            Mid Cap Stocks
+        
+                            Small Cap Stocks
+        
+                            Only Buyers
+        
+                            Only Sellers
+        
+                            BTST Stocks
+        
+                            Stocks List
+        
+                            FnO List
+        
+                            Nifty 50 Stock List
+        
+                            Sensex Stocks List
+        
+                            Sensex Historical Data
+        
+                            Nifty Historical Data
+        
+                            Buyback of Shares
+        
+                            Intraday Stocks
+        
+          
+            
+            
+                                    
+            IPO
+            
+                     
+                        Upcoming IPO
+        
+                            Current IPO
+        
+                            Closed IPO
+        
+                            Recently Listed IPO
+        
+                            IPO Allotment Status
+        
+                            IPO Calendar
+        
+          
+            
+            
+                                    
+            Share Market Holidays
+            
+                     
+                        Share Market Holidays 
+        
+                            NSE Holidays
+        
+                            BSE Holidays
+        
+                            MCX Holidays
+        
+                            Share Market Timing
+        
+                            US Market Holidays 2025
+        
+                                
+            Stocks to Buy
+                 
+                        Stocks to Buy Today
+        
+                            Stocks Under 1
+        
+                            Stocks Under 5
+        
+                            Stocks Under 10
+        
+                            Stocks Under 20
+        
+                            Stocks Under 50
+        
+                            Stocks Under 100
+        
+                            Stocks Under 500
+        
+                            Stocks Under 1000
+        
+          
+                  
+            
+            
+                                    
+            Stock Market Courses
+            
+                     
+                        Stock Market Basics Course
+        
+                            Mutual Fund Course
+        
+                            Currency Derivatives Course
+        
+                            Fundamental Analysis Course
+        
+                            Technical Analysis Course
+        
+                            Equity Derivatives Course
+        
+                            Investment Analysis Course
+        
+                            Ultimate Mutual Funds Financial Planning Course
+        
+                            Technical Indicators Course
+        
+                            Valuation Methodology Course
+        
+                            Equity Derivatives Advance Course
+        
+                            What Are ETFs?
+        
+          
+            
+            
+                                    
+            Commodity Trading
+            
+                     
+                        Gold Price
+        
+                            Crude Oil Price
+        
+                            Silver Price
+        
+                            Cotton Price
+        
+                            Copper Price
+        
+                            Aluminum price
+        
+                            Mentha Oil Price
+        
+                            Natural Gas Price
+        
+                            Silver M Price
+        
+                            Zinc Price
+        
+                            Lead Price
+        
+                            Platinum Price
+        
+          
+            
+            
+                                    
+            Gold Rate Today
+            
+                     
+                        Gold Rate in Chennai
+        
+                            Gold Rate in Hyderabad
+        
+                            Gold Rate in New Delhi
+        
+                            Gold Rate in Mumbai
+        
+                            Gold Rate in Bangalore
+        
+                            Gold Rate in Kerala
+        
+                            Gold Rate in Ahmedabad
+        
+                            Gold Rate in Pune
+        
+                            Gold Rate in Vijayawada
+        
+                            Gold Rate in Coimbatore
+        
+                            Gold Rate in Kolkata
+        
+          
+            
+            
+                  
+            
+            
+                        
+                        
+        
+        
+                                            
+                    Market Guide
+        
+            
+                     
+                        
+            Demat Account Guide
+            
+                     
+                        What is Demat Account?
+        
+                            What is Bonus Shares?
+        
+                            Link Adhaar Number with Demat Account
+        
+                            How To Open a Demat Account?
+        
+                            Difference between NSDL & CDSL
+        
+          
+            
+            
+                                    
+            Stock/Share Market Guide
+            
+                     
+                        What  are Equities?
+        
+                            What is EPS ?
+        
+                            Portfolio Meaning in Finance
+        
+                            What is Dividend Yield ? 
+        
+                            Debt to Equity Ratio
+        
+          
+            
+            
+                                    
+            Commodities Guide
+            
+                     
+                        What is Commodity Market
+        
+                            Commodity Trading in India
+        
+                            Commodity Futures
+        
+                            Difference Commodity & Forex Trading
+        
+                            Multi Commodity Exchange
+        
+                                
+            Savings Schemes Guide
+                 
+                        UAN Member Portal
+        
+                            Employees Provident Fund
+        
+                            Atal Pension Yojana
+        
+                            Public Provident Fund
+        
+                            Jeevan Pramaan Patra
+        
+          
+                  
+            
+            
+                                    
+            Derivatives Guide
+            
+                     
+                        Hedging Strategies
+        
+                            Index Futures
+        
+                            Swap Derivatives
+        
+                            Derivatives Trading
+        
+                            Futures Trading
+        
+          
+            
+            
+                                    
+            IPO Guide
+            
+                     
+                        IPO Full Form
+        
+                            SME Full Form
+        
+                            What is IPO ?
+        
+                            What is IPO Listing ?
+        
+                            How to Apply IPO in HNI Category
+        
+          
+            
+            
+                                    
+            Online Trading Guide
+            
+                     
+                        Intraday Trading - Advantages & Disadvantages
+        
+                            Momentum Trading
+        
+                            What is Swing Trading ? 
+        
+                            Price Action Trading
+        
+                            Different Types of Trading in Stock Market
+        
+          
+            
+            
+                  
+            
+            
+                        
+                        
+        
+        
+                                            
+                    Mutual Funds
+        
+            
+                     
+                        
+            Mutual Fund AMCs
+            
+                     
+                        SBI Mutual Fund
+        
+                            Axis Mutual Fund
+        
+                            HDFC Mutual Fund
+        
+                            UTI Mutual Fund
+        
+                            ICICI Pru Mutual Fund
+        
+                            Nippon India Mutual Fund
+        
+                            Aditya Birla Mutual Fund
+        
+                            Tata Mutual Fund
+        
+                            DSP Mutual Fund
+        
+                            Kotak Mutual Fund
+        
+                            IIFL Mutual Fund
+        
+                            Canara Robeco Mutual Fund
+        
+                            Franklin Templeton Mutual Fund
+        
+                            IDFC Mutual Fund
+        
+                            L&T Mutual Fund
+        
+                            Mirae Asset Mutual Fund
+        
+                            Sundaram Mutual Fund
+        
+                            Motilal Oswal Mutual Fund
+        
+                            Edelweiss Mutual Fund
+        
+                            Invesco Mutual Fund
+        
+          
+            
+            
+                                    
+            Best Mutual Fund Schemes
+            
+                     
+                        Parag Parikh Flexi Cap Fund
+        
+                            HDFC Balanced Advantage Fund
+        
+                            Axis Bluechip Fund
+        
+                            AXIS Long Duration Fund
+        
+                            Nippon India Small Cap Fund
+        
+                            Axis Midcap Fund
+        
+                            Axis Small Cap Fund
+        
+                            SBI Bluechip Fund
+        
+                            Axis Growth Opportunities Fund
+        
+                            SBI Balanced Advantage Fund
+        
+                            SBI Equity Hybrid Fund
+        
+                            SBI Small Cap Fund
+        
+                            Canara Bluechip Equity Fund
+        
+                            SBI Multicap Fund
+        
+                            HDFC Small Cap Fund
+        
+                            ICICI Prudential Technology Fund
+        
+                            Kotak Emerging Equity Fund
+        
+                            Kotak Small Cap Fund
+        
+          
+            
+            
+                                    
+            Best Mutual Funds
+            
+                     
+                            
+            Equity
+                 
+                        Largecap Funds
+        
+                            Midcap Funds
+        
+                            Smallcap Funds
+        
+                            ELSS Tax Saving Funds
+        
+                            Multi Cap Funds
+        
+                            Index Funds
+        
+          
+                                        
+            Hybrid
+                 
+                        Arbitrage Funds
+        
+                            Equity Savings Funds
+        
+                            Aggressive Funds
+        
+          
+                                        
+            Debt
+                 
+                        Liquid Funds
+        
+                            Ultra Short Duration Funds
+        
+                            Gilt Funds
+        
+                            Long Duration Funds
+        
+          
+                  
+            
+            
+                                    
+            ETF
+            
+                     
+                        Equity ETF
+        
+                            Debt ETF
+        
+                            Gold ETF
+        
+                            Nifty Bees ETF
+        
+                            CPSE ETF
+        
+                            Global ETF
+        
+                            Nippon India Silver ETF
+        
+                            Bharat 22 ETF
+        
+                            HDFC Silver ETF
+        
+          
+            
+            
+                                    
+            Mutual Fund Guide
+            
+                     
+                        What are Mutual Funds?
+        
+                            How to Invest In Mutual Funds ?
+        
+                            What is NAV in Mutual Funds ?
+        
+                            What is AUM in Mutual Fund ?
+        
+                            What is CAGR Mutual Funds?
+        
+                            What is Hedge Fund?
+        
+                            What is Hybrid Fund?
+        
+                            What is IDCW in Mutual Funds ?
+        
+                            What is SIP ?
+        
+                            What is Expense Ratio ?
+        
+                            What is PPF?
+        
+                            ELSS or SIP
+        
+          
+            
+            
+                  
+            
+            
+                            
+                    Mutual Funds Directory
+                    
+                                            A
+                                            B
+                                            C
+                                            D
+                                            E
+                                            F
+                                            G
+                                            H
+                                            I
+                                            J
+                                            K
+                                            L
+                                            M
+                                            N
+                                            O
+                                            P
+                                            Q
+                                            R
+                                            S
+                                            T
+                                            U
+                                            V
+                                            W
+                                            X
+                                            Y
+                                            Z
+                                            All
+                    
+                    
+                        
+                        
+        
+        
+                                            
+                    Calculators
+        
+            
+                     
+                        
+            1
+            
+                     
+                        Mutual Fund Calculator
+        
+                            SIP Calculator
+        
+                            Lumpsum Calculator
+        
+                            Brokerage Calculator
+        
+                            Margin Calculator
+        
+                            CAGR Calculator
+        
+                            Compound Interest Calculator
+        
+                            FD Calculator
+        
+                            PPF Calculator
+        
+          
+            
+            
+                                    
+            2
+            
+                     
+                        Currency Converter
+        
+                            GST Calculator
+        
+                            Gratuity Calculator
+        
+                            HRA Calculator
+        
+                            IPO Return Calculator
+        
+                            NPS Calculator
+        
+                            Post Office MIS Calculator
+        
+                            RD Calculator
+        
+                            Stock Average Calculator
+        
+          
+            
+            
+                                    
+            3
+            
+                     
+                        SWP Calculator
+        
+                            Sukanya Samriddhi Calculator
+        
+                            Step Up SIP Calculator
+        
+                            EPF Calculator
+        
+                            Retirement Calculator
+        
+                            NSC Calculator
+        
+                            Income Tax Calculator
+        
+                            Simple Interest Calculator
+        
+                            ELSS Calculator
+        
+          
+            
+            
+                                    
+            4
+            
+                     
+                        Stock Return Calculator
+        
+                            Inflation Calculator
+        
+                            APY Return Calculator
+        
+                            Long Term Capital Gain Tax Calculator
+        
+                            Short Term Capital Gain Tax Calculator
+        
+          
+            
+            
+                                    
+            5
+            
+                     
+                        USD to INR
+        
+                            EUR to INR
+        
+                            CAD to INR
+        
+                            GBP to INR
+        
+                            AUD to INR
+        
+                            SGD to INR
+        
+                            SAR to INR
+        
+                            CHF to INR
+        
+                            NZD to INR
+        
+                            JPY to INR
+        
+          
+            
+            
+                                    
+            6
+            
+                     
+                        MYR to INR
+        
+                            SEK to INR
+        
+                            IDR to INR
+        
+                            ZAR to INR
+        
+                            HKD to INR
+        
+                            NOK to INR
+        
+                            DKK to INR
+        
+                            NGN to INR
+        
+                            ITL to INR
+        
+                            INR to USD
+        
+          
+            
+            
+                  
+            
+            
+                        
+                        
+        
+        
+                                            
+                    Top Stocks
+        
+            
+                     
+                        
+            1 - 15
+            
+                     
+                        Ashok Leyland
+        
+                            Asian Paints
+        
+                            Axis Bank
+        
+                            Bajaj Finance
+        
+                            Bajaj Finserv
+        
+                            HCL Technologies
+        
+                            ICICI Bank
+        
+                            IRCTC
+        
+                            KPIT
+        
+                            Kotak Mahindra Bank
+        
+                            Larsen & Toubro
+        
+                            Maruti Suzuki India
+        
+                            Tata Power
+        
+                            Yes Bank
+        
+                            Vodafone Idea
+        
+          
+            
+            
+                                    
+            16 - 30
+            
+                     
+                        Adani Ports
+        
+                            BHEL
+        
+                            Canara Bank
+        
+                            Eicher Motors
+        
+                            HDFC Bank
+        
+                            HUL
+        
+                            ITC
+        
+                            NTPC
+        
+                            ONGC
+        
+                            Power Grid Corporation
+        
+                            Sun Pharmaceutical
+        
+                            Tata Motors
+        
+                            Titan Company
+        
+                            Vedanta
+        
+                            Wipro
+        
+          
+            
+            
+                                    
+            31 - 45
+            
+                     
+                        BSE
+        
+                            CDSL
+        
+                            COAL India
+        
+                            HDFC Life
+        
+                            HFCL
+        
+                            Infosys
+        
+                            JSW Steel
+        
+                            LIC
+        
+                            PNB
+        
+                            Reliance Industries
+        
+                            SBI
+        
+                            Sail
+        
+                            Tata Consultancy Services
+        
+                            Tata Steel
+        
+                            Tech Mahindra
+        
+          
+            
+            
+                                    
+            46 - 60
+            
+                     
+                        Adani Power
+        
+                            Adani Wilmar
+        
+                            BPCL
+        
+                            Cipla
+        
+                            Dmart
+        
+                            Hindalco Industries
+        
+                            IEX
+        
+                            Indusind Bank
+        
+                            Nykaa
+        
+                            Paytm
+        
+                            Suzlon
+        
+                            Tata Consumer
+        
+                            Tata Elxsi
+        
+                            Trident
+        
+                            Zomato
+        
+          
+            
+            
+                                    
+            US Stocks
+            
+                     
+                        Accenture PLC
+        
+                            Oracle Corp
+        
+                            Sap SE
+        
+                            Vmware Inc
+        
+          
+            
+            
+                                    
+            Group Stocks
+            
+                     
+                        Adani Shares
+        
+                            Ambani Shares
+        
+                            Bajaj Shares
+        
+                            Birla Shares
+        
+                            Godrej Shares
+        
+                            HDFC Shares
+        
+                            Hero Shares
+        
+                            Hinduja Shares
+        
+                            ICICI Shares
+        
+                            Jindal Shares
+        
+                            LnT Shares
+        
+                            Mahindra & Mahindra Shares
+        
+                            Murugappa Shares
+        
+                            TVS Shares
+        
+                            Tata Shares
+        
+          
+            
+            
+                  
+            
+            
+                        
+                            
+                    Stocks Directory
+                    
+                                            A
+                                            B
+                                            C
+                                            D
+                                            E
+                                            F
+                                            G
+                                            H
+                                            I
+                                            J
+                                            K
+                                            L
+                                            M
+                                            N
+                                            O
+                                            P
+                                            Q
+                                            R
+                                            S
+                                            T
+                                            U
+                                            V
+                                            W
+                                            X
+                                            Y
+                                            Z
+                                            All
+                        0-9
+                    
+                                    
+                        
+        
+        
+                                            
+                    Indices
+        
+            
+                     
+                        
+            Broad Market Indices
+            
+                     
+                        NSE
+        
+                            NIFTY 50
+        
+                            NIFTY Next 50
+        
+                            NIFTY 100
+        
+                            NIFTY Smallcap 100
+        
+                            NIFTY 500
+        
+                            NIFTY Midcap 100
+        
+                            Nifty Tata
+        
+                            Nifty 500 Multicap Manufacturing
+        
+                            Nifty 500 Multicap Infrastructure
+        
+                            Nifty Midsmall Healthcare
+        
+          
+            
+            
+                                    
+            Global Indices
+            
+                     
+                        Gift Nifty
+        
+                            Dow Jones
+        
+                            S&P ASX 200
+        
+                            CAC 40
+        
+                            DAX
+        
+                            Taiwan Weighted
+        
+                            US 30
+        
+                            Shanghai Composite
+        
+                            S&P 500
+        
+                            Nikkei 225
+        
+                            Hang Seng
+        
+                            FTSE 100
+        
+          
+            
+            
+                                    
+            Thematic Indices
+            
+                     
+                        NIFTY Commodities
+        
+                            NIFTY CPSE
+        
+                            NIFTY Infrastructure
+        
+                            NIFTY Services Sector
+        
+                                
+            Sectoral Indices
+                 
+                        NIFTY Auto
+        
+                            NIFTY Bank
+        
+                            FIN Nifty
+        
+                            NIFTY Pharma
+        
+                            NIFTY Media
+        
+                            NIFTY Metal
+        
+                            NIFTY Realty
+        
+          
+                  
+            
+            
+                                    
+            Top Sectors
+            
+                     
+                        Banks
+        
+                            IT
+        
+                            Chemicals
+        
+                            FMCG
+        
+                            Automobile
+        
+                            Pharmaceuticals
+        
+                            Cement
+        
+                            Logistics
+        
+                            Healthcare
+        
+                            Fertilizers
+        
+                            Sugar
+        
+                            PSU
+        
+          
+            
+            
+                                    
+            BSE Indices (1-10)
+            
+                     
+                        BSE
+        
+                            S&P BSE SME IPO
+        
+                            S&P BSE 100
+        
+                            S&P BSE 200
+        
+                            S&P BSE 500
+        
+                            S&P BSE Auto
+        
+                            S&P BSE Bankex
+        
+                            S&P BSE Industrial
+        
+          
+            
+            
+                                    
+            BSE Indices (11-20)
+            
+                     
+                        Sensex Today
+        
+                            S&P BSE FMCG
+        
+                            S&P BSE Infra
+        
+                            S&P BSE IPO
+        
+                            S&P BSE IT
+        
+                            S&P BSE Metal
+        
+                            S&P BSE Realty
+        
+                            S&P BSE Energy
+        
+                            S&P BSE Midcap
+        
+                            S&P BSE Dollex 200
+        
+          
+            
+            
+                  
+            
+            
+                        
+                        
+        
+        
+                                            
+                    About
+        
+            
+                     
+                        
+            About
+            
+                     
+                        About Us
+        
+                            Careers
+        
+                            Sitemap
+        
+                            Investor Relations
+        
+                            Partner Program
+        
+                            FinSchool
+        
+                            Blog
+        
+                            Web Stories
+        
+                            Union Budget 2025
+        
+                            Announcements
+        
+          
+            
+            
+                                    
+            Products
+            
+                     
+                        Stock Trading
+        
+                            Derivatives Trading
+        
+                            Commodity Trading
+        
+                            Mutual Funds
+        
+                            Stock Screener
+        
+          
+            
+            
+                                    
+            Technology
+            
+                     
+                        Web Platform
+        
+                            FnO360
+        
+                            Algo Trading
+        
+                            5paisa Trading App
+        
+                            5paisa EXE
+        
+                            Trading View
+        
+                            Developer APIs
+        
+                            Quant Tower EXE
+        
+          
+            
+            
+                                    
+            Types of Account
+            
+                     
+                        Open Demat Account
+        
+                            Trading Account
+        
+          
+            
+            
+                                    
+            Connected Apps
+            
+                     
+                        Smallcase
+        
+          
+            
+            
+                  
+            
+            
+                        
+                        
+        
+        
+                                            
+                    More
+        
+            
+                     
+                        
+            Legal
+            
+                     
+                        Disclaimer: Beware of Fraud
+        
+                            Investor Risk Reduction Access (IRRA)
+        
+                            View Client Collateral Details (MCX)
+        
+                            SMARTODR
+        
+                            SCORES
+        
+                            Caution Notice to Investors/Customer
+        
+                            Advisory to Investors
+        
+                            Details of Client Bank Accounts
+        
+                            Terms of use
+        
+                            Privacy Policy
+        
+                            Disclaimer
+        
+                            Information Memorandum
+        
+                            Client Copy - Rights & Obligations
+        
+                            Notice to Shareholders
+        
+                            Notice to Creditors
+        
+                            Research AnalystDisclaimer
+        
+                            AML Policy
+        
+                            Risk Policy
+        
+                            Do's and Don'ts
+        
+                            View Client Collateral Details (NSE)
+        
+                            Investor Charter Complaints
+        
+                            Most Important Terms and Conditions
+        
+                            Investor Demise: SOP on Reporting Norms
+        
+                            SECC Regulation
+        
+                            Commission Disclosure
+        
+                            Policy on Handling of Good Till Cancelled Orders
+        
+          
+            
+            
+                                    
+            Contact Us
+            
+                     
+                        Support
+        
+                            Raise a Ticket
+        
+                            FAQs
+        
+          
+            
+            
+                                    
+            Other Links
+            
+                     
+                        E-voting
+        
+                            Brokerage Charges
+        
+                            Download Forms
+        
+                            Announcements
+        
+                            Advisory - KYC Compliance
+        
+                            Modes of Payment
+        
+                            Investor Charter
+        
+                            Names and contact details of KMPs
+        
+                            Basic details of Broker
+        
+                            SEBI Investor charter
+        
+                            Regulatory Notification
+        
+                            List of APs
+        
+                            Filing Complaints at 5Paisa
+        
+                            Account Opening Flow at 5Paisa
+        
+                            Precautions for trading in Options 
+        
+                            Stocks in News Today
+        
+                            Economic Calendar
+        
+          
+            
+            
+                  
+            
+            
+                        
+                        
+        
+        
+                  
+
+
+
+
+const accordionTriggers = document.querySelectorAll('.accordion-title');
+accordionTriggers.forEach(trigger => trigger.addEventListener('click', toggleAccordion));
+
+function toggleAccordion() {
+    const items = document.querySelectorAll('.global__accordianlinks');
+    const thisItem = this.parentNode;
+    items.forEach(item => {
+    if (thisItem == item) {
+    thisItem.classList.toggle('is-open');
+    return;
+}
+item.classList.remove('is-open');
+});
+}
+
+
+
+    
+  
+
+  
+    
+
+      
+            
+
+@media only screen and (max-width:767px){.lead__viewbox{display:block!important;}}
+
+
+	
+		
+			
+				Open FREE Demat Account
+				
+					Mobile Number
+					
+						+91
+					
+					 
+					
+						ApplyRemove
+
+							 
+						
+					
+					Mobile No. belongs to
+						
+							Self
+							Spouse
+							Dependent Children
+							Dependent Siblings
+							Dependent Parents
+							Guardian
+							PMS
+							Custodian
+							POA
+						
+					
+					Proceed
+				By proceeding, you agree to our T&Cs*
+				
+
+				
+					OTP sent successfully on your mobile no
+                                           
+						
+					    
+					
+
+					ENTER OTP
+
+						 
+						
+
+						 
+						Proceed
+					
+				
+				mobile_sticky
+			
+		
+	
+
+
+	
+	
+		
+			
+				Trade Now
+			
+		
+	
+
+      
+  
+
+
+																																								  
+  
+    
+
+      
+            
+  More Information
+  5paisa Capital Ltd. CIN: L67190MH2007PLC289249 | Stock Broker SEBI Regn.: INZ000010231 | SEBI RA Regn.: INH000004680 | SEBI Depository Regn.: IN DP CDSL: IN-DP-192-2016 | AMFI-registered Mutual Fund Distributor | AMFI REGN No.: ARN-104096 | Date of initial Registration: 30/07/2015 | Current validity of ARN : 30/07/2027 | NSE Member id: 14300 | BSE Member id: 6363 | MCX Member ID: 55945 | Registered Address - IIFL House, Sun Infotech Park, Road no. 16V, Plot no. B-23, MIDC, Thane Industrial Area, Waghle Estate, Thane, Maharashtra - 400604
+  *Brokerage will be levied flat fee/executed order basis and not on a percentage basis. Investment in securities market are subject to market risk, read all related documents carefully before investing. Digital account would be opened after all procedure relating to IPV and client due diligence is completed. If sale/ purchase value of share of ₹10/- or less, a maximum brokerage of 25 paisa per share may be collected. Brokerage will not exceed the SEBI prescribed limit.
+  Mutual Fund, Mutual Fund-SIP are not Exchange traded products, and the Member is just acting as distributor. All disputes with respect to the distribution activity, would not have access to Exchange investor redressal forum or Arbitration mechanism.
+Compliance Officer: Ms. Namita Godbole, Email: support@5paisa.com, Support Desk Helpline: 8976689766
+  Contact Us
+
+
+if(document.querySelector('#oda-form-content-h2')){
+let replace_ipo = document.querySelector('#oda-form-content-h2').innerText;
+const new_txt = replace_ipo.replace('Closed', '');
+document.querySelector('#oda-form-content-h2').innerText = new_txt ;
+}
+
+
+.blog-wrapper__left p a {
+    display: inline-block;
+    padding: 0;
+}
+.bg-xstream_apis{
+min-width:43px;
+display:flex;
+}
+.bg-trade_on_charts{
+min-width:43px;
+.support-info .support-info__box p span {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    transform: scale(.9);
+}
+
+
+      
+  
+
+  
+    
+
+      
+            
+Attention Investors
+
+
+	1. Advisory for Investors
+	2. No need to issue cheques by investors while subscribing to IPO. Just write the bank account number and sign in the application form to authorise your bank to make payment in case of allotment. No worries for refund as the money remains in investor's account.
+	3. Message from Exchange(s): Prevent Unauthorised transactions in your account --> Update your mobile numbers/email IDs with your stock brokers. Receive information of your transactions directly from Exchange on your mobile/email at the end of the day. Issued in the interest of investors.
+	4. Message from Depositories: a) Prevent Unauthorized Transactions in your demat account --> Update your mobile number with your Depository Participant. Receive alerts on your registered mobile for all debit and other important transactions in your demat account directly from CDSL on the same day issued in the interest of investors. b) KYC is one time exercise while dealing in securities markets - once KYC is done through a SEBI registered intermediary (broker, DP, Mutual Fund etc.), you need not undergo the same process again when you approach another intermediary.
+
+
+.paisabase-btn__action.red--btn.paisabase--ripple:hover{
+    background: #c01048;
+}
+.bg-5paisa_partner_program{
+	min-width: 43px;
+    display: flex;
+    height: 43px;
+    background: url(https://storage.googleapis.com/5paisa-prod-storage/pages/header/homepage-main-sprite.svg) -186px -445px;
+}
+
+
+      
+  
+
+
+																		
+
+					
+																					  
+  
+    
+
+      
+            
+                        
+                            Email: support@5paisa.com
+                        
+                        
+                            Support Desk Helpline: 8976689766
+                        
+                    
+                    
+                        Follow us on
+                        
+                            
+                             
+                            
+                             
+                            
+                             
+                            
+                             
+                            
+                             
+                            
+                             
+                            
+
+                              
+                        
+                    
+                    
+                        Join Our Community
+                        
+                            
+                        
+                    
+                    
+                        Download now
+                        
+                            
+                                
+                            
+                            
+                            
+                        
+                    
+      
+  
+
+
+																		
+					
+				
+																			  
+  
+    
+
+      
+            ©2025, 5paisa Capital Ltd. All Rights Reserved. We are ISO 27001:2013 Certified.
+
+.indices li {
+    flex: initial !important;
+}
+
+
+
+
+      
+  
+
+
+												
+
+				
+			
+		
+							
+
+	
+		
+			
+			
+				
+					Start Investing Now!
+				
+				
+					Open Free Demat Account in
+					
+					mins
+				
+			
+			
+				
+					
+						
+						
+					
+					
+						Open Demat Account
+					
+					desktop_sticky
+				
+			
+		
+	
+
+			
+	
+  
+
+    
+          
+    	
+    {""path"":{""baseUrl"":""\/"",""pathPrefix"":"""",""currentPath"":""commodity-trading\/mcx-aluminium-price"",""currentPathIsAdmin"":false,""isFront"":false,""currentLanguage"":""en""},""pluralDelimiter"":""\u0003"",""suppressDeprecationErrors"":true,""fivepaisa"":{""isSignin"":""""},""user"":{""uid"":0,""permissionsHash"":""922ee1eae235732f17b1db328baef1fb071fa90be80f43e60958b679b5b3d227""}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+
+  
+dataLayer.push({eventCategory:void 0,eventAction:void 0,eventLabel:void 0,gender:void 0,qualification:void 0,source_of_income:void 0,experience:void 0,nominee_relationship:void 0,marital_status:void 0,occupation:void 0,annual_income:void 0,previous_page_path:void 0,error_message:void 0,section_name:void 0,segment:void 0,product:void 0,side_bs:void 0,previous_article:void 0});!function(e,g,h,m,b,k,f,d,l,n,p){e.fbq||((d=e.tvcPixel=function(){d.callMethod?d.callMethod.apply(d,arguments):d.queue.push(arguments)}).push=d,d.queue=[],b=e.fbq=function(){for(var a=Array(arguments.length),c=0;c<a.length;++c)a[c]=arguments[c];c=Math.floor(1E14*Math.random());""track""!==a[0].toLowerCase()&&""trackcustom""!==a[0].toLowerCase()||a[3]&&a[3].eventID||(a[2]||(a[2]=void 0),""object""==typeof a[3]?a[3].eventID=c:a[3]={eventID:c});""tracksingle""!==a[0].toLowerCase()&&""tracksinglecustom""!==a[0].toLowerCase()||
+a[3]&&a[3].eventID||a[4]&&a[4].eventID||(a[3]||(a[3]=void 0),a[4]||(a[4]=void0),""object""==typeof a[4]?a[4].eventID=c:a[4]={eventID:c});b.callMethod?b.callMethod.apply(b,a):b.queue.push(a);e.tvcPixel(a)},e._fbq||(e._fbq=b),b.push=b,b.loaded=!0,b.version=""2.0"",b.queue=[],(k=g.createElement(h)).async=!0,k.src=""https://connect.facebook.net/en_US /fbevents.js"",(f=g.getElementsByTagName(h)[0]).parentNode.insertBefore(k,f),(l=g.createElement(h)).async=!0,l.src=""https://s2s.5paisa.com/static/tvcPixel.js"",
+f.parentNode.insertBefore(l,f))}(window,document,""script"");fbq(""init"",""415963459177135"");fbq(""track"",""ViewContent"");
+/*
+ (function (e, t, n, o, a, c, r, l, s, u, f) { e.fbq || (((l = e.tvcPixel = function () { l.callMethod ? l.callMethod.apply(l, arguments) : l.queue.push(arguments); }).push = l), (l.queue = []), (a = e.fbq = function () { for (var t = new Array(arguments.length), n = 0; n < t.length; ++n)t[n] = arguments[n]; var o = Math.floor(1e14 * Math.random()); if (!((""track""!==t[0].toLowerCase()&& ""trackcustom""!==t[0].toLowerCase())||(t[3]&&t[3].eventID))){t[2]||(t[2]=void 0),""object""==typeof t[3]?(t[3].eventID=o):(t[3]={eventID:o});}if(!((""tracksingle""!==t[0].toLowerCase() && ""tracksinglecustom""!==t[0].toLowerCase())||(t[3]&&t[3].eventID)||(t[4]&&t[4].eventID))){t[ 3]||(t[3]=void 0),t[4]||(t[4]=void0),""object""==typeof t[4]?(t[4].eventID=o):(t[4]={eventID:o});}a.callMethod?a.callMethod.apply(a,t):a.queue.push(t),e.tvcPixel(t);}),e._fbq||(e._fbq=a),(a.push=a),(a.loaded=!0),(a.version=""2.0""),(a.queue=[]),((c=t.createElement(n)).async=!0),(c.src=""https://connect.facebook.net/en_US /fbevents.js""),(r=t.getElementsByTagName(n)[0]).parentNode.insertBefore(c,r),((s=t.createElement(n)).async=!0),(s.src=""https://s2s.5paisa.com/static/tvcPixel.js""),r.parentNode.insertBefore(s,r));})(window,document,""script"");
+
+fbq('init', '415963459177135');*/
+fbq(""track"",""PageView"");
+function getParam(a){return(a=RegExp(""[?\x26]""+a+""\x3d([^\x26]*)"").exec(window.location.search))&&decodeURIComponent(a[1].replace(/\+/g,"" ""))}function getExpiryRecord(a){var b=7776E6;b=(new Date).getTime()+b;return{value:a,expiryDate:b}}
+function addGclid(){var a=getParam(""gclid""),b=[""gclid_field"",""foobar""],d=null,e,c=getParam(""gclsrc"");c=!c||-1!==c.indexOf(""aw"");b.forEach(function(f){document.getElementById(f)&&(e=document.getElementById(f))});a&&c&&(d=getExpiryRecord(a),localStorage.setItem(""gclid"",JSON.stringify(d)));b=(a=d||JSON.parse(localStorage.getItem(""gclid"")))&&(new Date).getTime()<a.expiryDate;e&&b&&(e.value=a.value)}window.addEventListener(""load"",addGclid);for(var close_icon_click=document.querySelectorAll("".newipo__closebox ul li a""),i=0;i<close_icon_click.length;i++)close_icon_click[i].addEventListener(""click"",function(a){dataLayer.push({event:""ipo_list"",eventCategory:""IPO List"",eventAction:a.target.innerText,eventLabel:document.querySelectorAll("".iponew__closed .newipo__headingtext"")[0].innerText.trim()})});var recently_icon_click=document.querySelectorAll("".newipo__recentlylist ul li a"");
+for(i=0;i<recently_icon_click.length;i++)recently_icon_click[i].addEventListener(""click"",function(a){dataLayer.push({event:""ipo_list"",eventCategory:""IPO List"",eventAction:a.target.innerText,eventLabel:document.querySelectorAll("".iponew__recently .newipo__headingtext"")[0].innerText.trim()})});var u_icon_click=document.querySelectorAll("".iponew__upcoming .limit-chars"");
+for(i=0;i<u_icon_click.length;i++)u_icon_click[i].addEventListener(""click"",function(a){dataLayer.push({event:""ipo_list"",eventCategory:""IPO List"",eventAction:a.target.innerText,eventLabel:document.querySelectorAll("".iponew__upcoming .newipo__headingtext"")[0].innerText.trim()})});var cu_icon_click=document.querySelectorAll("".iponew__current .limit-chars"");
+for(i=0;i<cu_icon_click.length;i++)cu_icon_click[i].addEventListener(""click"",function(a){dataLayer.push({event:""ipo_list"",eventCategory:""IPO List"",eventAction:a.target.innerText,eventLabel:document.querySelectorAll("".iponew__current .newipo__headingtext"")[0].innerText.trim()})});var c_summary=document.querySelectorAll("".iponew__current .bg-ipo_details"");
+for(i=0;i<c_summary.length;i++)c_summary[i].addEventListener(""click"",function(a){dataLayer.push({event:""ipo_list"",eventCategory:""IPO List"",eventAction:""Summary"",eventLabel:document.querySelectorAll("".iponew__current .newipo__headingtext"")[0].innerText.trim()})});var up_summary=document.querySelectorAll("".iponew__upcoming .bg-ipo_details"");
+for(i=0;i<up_summary.length;i++)up_summary[i].addEventListener(""click"",function(a){dataLayer.push({event:""ipo_list"",eventCategory:""IPO List"",eventAction:""Summary"",eventLabel:document.querySelectorAll("".iponew__upcoming .newipo__headingtext"")[0].innerText.trim()})});var c_youtube=document.querySelectorAll("".iponew__current .bg-ipo_youtube"");
+for(i=0;i<c_youtube.length;i++)c_youtube[i].addEventListener(""click"",function(a){dataLayer.push({event:""ipo_list"",eventCategory:""IPO List"",eventAction:""Youtube"",eventLabel:document.querySelectorAll("".iponew__current .newipo__headingtext"")[0].innerText.trim()})});var youtube=document.querySelectorAll("".iponew__upcoming .bg-ipo_youtube"");for(i=0;i<youtube.length;i++)youtube[i].addEventListener(""click"",function(a){dataLayer.push({event:""ipo_list"",eventCategory:""IPO List"",eventAction:""Youtube"",eventLabel:document.querySelectorAll("".iponew__upcoming .newipo__headingtext"")[0].innerText.trim()})});
+var c_doc=document.querySelectorAll("".iponew__current .ipo__doclick"");for(i=0;i<c_doc.length;i++)c_doc[i].addEventListener(""click"",function(a){dataLayer.push({event:""ipo_list"",eventCategory:""IPO List"",eventAction:""Download"",eventLabel:document.querySelectorAll("".iponew__current .newipo__headingtext"")[0].innerText.trim()})});var up_doc=document.querySelectorAll("".iponew__upcoming .ipo__doclick"");
+for(i=0;i<up_doc.length;i++)up_doc[i].addEventListener(""click"",function(a){dataLayer.push({event:""ipo_list"",eventCategory:""IPO List"",eventAction:""Download"",eventLabel:document.querySelectorAll("".iponew__upcoming .newipo__headingtext"")[0].innerText.trim()})});try{var cta_click=document.querySelectorAll("".paisabase-darivative__accordian h3"");cta_click.forEach(function(a){a.addEventListener(""click"",function(b){a.classList.contains(""active"")?dataLayer.push({event:""derivative_accordian"",eventCategory:""derivative_accordian"",eventAction:""expanded""}):dataLayer.push({event:""derivative_accordian"",eventCategory:""derivative_accordian"",eventAction:""collapsed""})})})}catch(a){console.log(a.message)};try{document.querySelector(""#search-input"").addEventListener(""click"",function(a){dataLayer.push({event:""search_initiate"",eventCategory:""search_initiate"",eventAction:document.location.pathname,eventLabel:document.title})})}catch(a){console.log(a.message)};!function(a,e,f,k,h,g,c,b,d){a.AppsFlyerSdkObject=h;a.AF=a.AF||function(){(a.AF.q=a.AF.q||[]).push([Date.now()].concat(Array.prototype.slice.call(arguments)))};a.AF.id=a.AF.id||c;a.AF.plugins={};b=e.createElement(f);d=e.getElementsByTagName(f)[0];b.async=1;b.src=""https://websdk.appsflyer.com?""+(0<g.length?""st\x3d""+g.split("","").sort().join("","")+""\x26"":"""")+(0<c.length?""af_id\x3d""+c:"""");d.parentNode.insertBefore(b,d)}(window,document,""script"",0,""AF"",""pba,banners"",{pba:{webAppId:""YOUR_PBA_KEY""},banners:{key:""1462fd8d-dc90-4f8b-b6da-83c55a12d785""}});
+AF(""banners"",""showBanner"",{bannerZIndex:1E3,additionalParams:{p1:""v1"",p2:""v2""}});function getColorMode(){return window.matchMedia&&window.matchMedia(""(prefers-color-scheme: dark)"").matches?""dark"":""light""}window.dataLayer=window.dataLayer||[];window.dataLayer.push({event:""colorModeDetected"",colorMode:getColorMode()});function bindListner(a){a.addEventListener(""click"",function(){var b=a.innerText.trim(),c=a.parentElement.parentElement.classList[0].trim().toLowerCase();dataLayer.push({event:""tvc_top_menu"",eventCategory:""Top Menu"",eventAction:b+"" (""+c+"")"",eventLabel:a.href})})}
+function MbindListner(a){a.addEventListener(""click"",function(){var b=a.innerText.trim();dataLayer.push({event:""tvc_top_menu"",eventCategory:""ODA CTA on Home Page"",eventAction:b,eventLabel:""javascript:void(0);""==a.href?google_tag_manager[""rm""][""2138615""](229):a.href})})}function SbindListner(a){a.addEventListener(""click"",function(){var b=a.innerText.trim(),c=""submenu"";dataLayer.push({event:""tvc_top_menu"",eventCategory:""Top Menu"",eventAction:b+"" (""+c+"")"",eventLabel:a.href})})}var elements=document.querySelectorAll("".header-menu\x3eul\x3eli\x3ea"");
+for(i=0;i<elements.length;i++)bindListner(elements[i]);var submenu=document.querySelectorAll("".sublinks\x3eul\x3eli\x3ea"");for(i=0;i<submenu.length;i++)SbindListner(submenu[i]);if(0<document.querySelectorAll(""#tvc_custom_demat_btn"").length){var mElement=document.querySelectorAll(""#tvc_custom_demat_btn"")[0];MbindListner(mElement)};dataLayer.push({eventCategory:void 0,eventAction:void 0,eventLabel:void 0,gender:void 0,qualification:void 0,source_of_income:void 0,experience:void 0,nominee_relationship:void 0,marital_status:void 0,occupation:void 0,annual_income:void 0,previous_page_path:void 0,error_message:void 0,section_name:void 0,segment:void 0,product:void 0,side_bs:void 0,previous_article:void 0});",230.95,0.00%,231.45,0.00%,231.95,0.00%,232.45,0.00%,233.45,0.00%,233.95,0.00%,234.45,0.00%,235.95,0.00%,236.95,0.00%,237.45,0.00%,238.45,0.00%,238.95,0.00%,239.45,0.00%,239.95,0.00%
+2025-04-16,13:26:45,2025-04-16 13:26:45,230.5,Invest in top performing direct mutal funds at 0% commission,231.0,0.00%,231.5,0.00%,232.0,0.00%
+2025-04-16,13:30:55,2025-04-16 13:30:55,230.55,-0.55%,231.05,-0.25%,231.55,0.58%
+2025-04-16,13:31:05,2025-04-16 13:31:05,230.55,-0.23%,231.05,0.32%,231.55,-0.59%
+2025-04-16,13:32:30,2025-04-16 13:32:30,230.55,0.51%,231.05,0.54%,231.55,0.44%
+2025-04-16,13:33:51,2025-04-16 13:33:51,230.0,0.00%,230.5,0.00%,231.0,0.00%
+2025-04-16,13:39:46,2025-04-16 13:39:46,230.0,Invest in top performing direct mutal funds at 0% commission,230.0,Invest in top performing direct mutal funds at 0% commission,230.0,Invest in top performing direct mutal funds at 0% commission
+2025-04-16,13:41:41,2025-04-16 13:41:41,230.2,-0.88%,231.6,-0.81%,232.0,0.00%
+2025-04-16,13:43:58,2025-04-16 13:43:58,230.2,-0.88%,231.6,-0.81%,232.0,0.00%
+2025-04-16,13:47:11,2025-04-16 13:47:11,230.15,"The building and construction business, where demand is still relatively high in emerging nations, and Aluminium can make up to 30% of the building materials, is the second-largest industry for Aluminium. The construction business's irregular nature affects Aluminium's price, as construction expansion drives up prices, and a decline in construction drives down prices.",230.15,"The building and construction business, where demand is still relatively high in emerging nations, and Aluminium can make up to 30% of the building materials, is the second-largest industry for Aluminium. The construction business's irregular nature affects Aluminium's price, as construction expansion drives up prices, and a decline in construction drives down prices.",230.15,"The building and construction business, where demand is still relatively high in emerging nations, and Aluminium can make up to 30% of the building materials, is the second-largest industry for Aluminium. The construction business's irregular nature affects Aluminium's price, as construction expansion drives up prices, and a decline in construction drives down prices."
