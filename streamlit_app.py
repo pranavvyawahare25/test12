@@ -15,12 +15,16 @@ import re
 import random
 import urllib3
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.firefox.service import Service as FirefoxService
+from selenium.webdriver.firefox.options import Options as FirefoxOptions
+from selenium.webdriver.chrome.service import Service as ChromeService
+from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from webdriver_manager.firefox import GeckoDriverManager
 from webdriver_manager.chrome import ChromeDriverManager
+import platform
 
 # Suppress SSL warnings
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -105,43 +109,63 @@ def check_website_accessibility(url, headers):
         logger.error(f"Error checking website accessibility: {str(e)}")
         return False
 
-def setup_chrome_driver():
-    """Set up and return a Chrome WebDriver instance with enhanced anti-detection"""
-    try:
-        chrome_options = Options()
-        chrome_options.add_argument("--headless=new")
-        chrome_options.add_argument("--no-sandbox")
-        chrome_options.add_argument("--disable-dev-shm-usage")
-        chrome_options.add_argument("--disable-gpu")
-        chrome_options.add_argument("--window-size=1920,1080")
-        chrome_options.add_argument("--disable-notifications")
-        chrome_options.add_argument("--disable-popup-blocking")
-        chrome_options.add_argument("--disable-blink-features=AutomationControlled")
-        chrome_options.add_argument("--disable-extensions")
-        chrome_options.add_argument("--start-maximized")
-        chrome_options.add_argument('user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36')
-        
+def setup_browser():
+    """Set up and return a WebDriver instance with fallback options"""
+    logger.info("Setting up browser")
+    
+    def setup_firefox():
         try:
-            # First try using the direct Chrome binary path for macOS
-            chrome_options.binary_location = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
-            driver = webdriver.Chrome(options=chrome_options)
-            logger.info("Successfully initialized Chrome WebDriver using direct binary path")
+            firefox_options = FirefoxOptions()
+            firefox_options.add_argument("--headless")
+            firefox_options.add_argument("--no-sandbox")
+            firefox_options.add_argument("--disable-dev-shm-usage")
+            firefox_options.add_argument("--disable-gpu")
+            firefox_options.add_argument('--window-size=1920,1080')
+            firefox_options.add_argument('--disable-blink-features=AutomationControlled')
+            firefox_options.add_argument('user-agent=Mozilla/5.0 (X11; Linux x86_64) Firefox/120.0')
+            
+            service = FirefoxService(GeckoDriverManager().install())
+            driver = webdriver.Firefox(service=service, options=firefox_options)
+            logger.info("Successfully initialized Firefox WebDriver")
             return driver
         except Exception as e:
-            logger.warning(f"Direct binary path failed: {str(e)}")
-            try:
-                # Try using ChromeDriverManager as fallback
-                service = Service(ChromeDriverManager().install())
-                driver = webdriver.Chrome(service=service, options=chrome_options)
-                logger.info("Successfully initialized Chrome WebDriver using ChromeDriverManager")
-                return driver
-            except Exception as e:
-                logger.error(f"ChromeDriverManager failed: {str(e)}")
-                return None
-                
-    except Exception as e:
-        logger.error(f"Error setting up Chrome WebDriver: {str(e)}")
+            logger.error(f"Firefox setup failed: {str(e)}")
+            return None
+
+    def setup_chrome():
+        try:
+            chrome_options = ChromeOptions()
+            chrome_options.add_argument("--headless=new")
+            chrome_options.add_argument("--no-sandbox")
+            chrome_options.add_argument("--disable-dev-shm-usage")
+            chrome_options.add_argument("--disable-gpu")
+            chrome_options.add_argument('--window-size=1920,1080')
+            chrome_options.add_argument('--disable-blink-features=AutomationControlled')
+            chrome_options.add_argument('user-agent=Mozilla/5.0 (X11; Linux x86_64) Chrome/120.0.0.0')
+            
+            # Try to install Chrome if not present (Linux only)
+            if platform.system() == "Linux":
+                os.system("apt-get update && apt-get install -y chromium-browser")
+            
+            service = ChromeService(ChromeDriverManager().install())
+            driver = webdriver.Chrome(service=service, options=chrome_options)
+            logger.info("Successfully initialized Chrome WebDriver")
+            return driver
+        except Exception as e:
+            logger.error(f"Chrome setup failed: {str(e)}")
+            return None
+
+    # Try Firefox first, then Chrome
+    driver = setup_firefox()
+    if not driver:
+        logger.info("Firefox failed, trying Chrome...")
+        driver = setup_chrome()
+    
+    if not driver:
+        logger.error("All browser setup attempts failed")
         return None
+    
+    return driver
 
 def scrape_mcx_aluminium_prices():
     """Scrape live MCX Aluminium prices using Selenium"""
@@ -149,9 +173,9 @@ def scrape_mcx_aluminium_prices():
     driver = None
     
     try:
-        driver = setup_chrome_driver()
+        driver = setup_browser()
         if not driver:
-            logger.error("Failed to initialize Chrome WebDriver")
+            logger.error("Failed to initialize WebDriver")
             return generate_price_data()
             
         # Get current timestamp
@@ -171,36 +195,50 @@ def scrape_mcx_aluminium_prices():
             # Get April contract data
             logger.info("Fetching April contract data")
             driver.get('https://www.5paisa.com/commodity-trading/mcx-aluminium-price')
-            time.sleep(5)  # Increased wait time
+            time.sleep(5)
             april_data = extract_price_data_selenium(driver)
             
-            if april_data:
+            # Get May contract data
+            logger.info("Fetching May contract data")
+            try:
+                may_tab = WebDriverWait(driver, 5).until(
+                    EC.presence_of_element_located((By.XPATH, "//button[contains(text(), 'May')]"))
+                )
+                may_tab.click()
+                time.sleep(2)
+            except:
+                driver.get('https://www.5paisa.com/commodity-trading/mcx-aluminium-price?contract=May-2025')
+                time.sleep(5)
+            may_data = extract_price_data_selenium(driver)
+            
+            # Get June contract data
+            logger.info("Fetching June contract data")
+            try:
+                june_tab = WebDriverWait(driver, 5).until(
+                    EC.presence_of_element_located((By.XPATH, "//button[contains(text(), 'Jun')]"))
+                )
+                june_tab.click()
+                time.sleep(2)
+            except:
+                driver.get('https://www.5paisa.com/commodity-trading/mcx-aluminium-price?contract=Jun-2025')
+                time.sleep(5)
+            june_data = extract_price_data_selenium(driver)
+            
+            # Add data with validation
+            if april_data and april_data["price"] > 0:
                 data["prices"]["Apr 30 2025"] = april_data
             else:
                 data["prices"]["Apr 30 2025"] = {"price": 230.2, "site_rate_change": "-0.88%"}
                 
-            # Get May contract data
-            logger.info("Fetching May contract data")
-            driver.execute_script("window.location.href='https://www.5paisa.com/commodity-trading/mcx-aluminium-price?contract=May-2025'")
-            time.sleep(5)
-            may_data = extract_price_data_selenium(driver)
-            
-            if may_data:
+            if may_data and may_data["price"] > 0:
                 data["prices"]["May 30 2025"] = may_data
             else:
                 data["prices"]["May 30 2025"] = {"price": 231.6, "site_rate_change": "-0.81%"}
                 
-            # Get June contract data
-            logger.info("Fetching June contract data")
-            driver.execute_script("window.location.href='https://www.5paisa.com/commodity-trading/mcx-aluminium-price?contract=Jun-2025'")
-            time.sleep(5)
-            june_data = extract_price_data_selenium(driver)
-            
-            if june_data:
+            if june_data and june_data["price"] > 0:
                 data["prices"]["Jun 30 2025"] = june_data
             else:
-                june_price = 231.6 + 0.4
-                data["prices"]["Jun 30 2025"] = {"price": june_price, "site_rate_change": "0.00%"}
+                data["prices"]["Jun 30 2025"] = {"price": 232.0, "site_rate_change": "0.00%"}
             
             logger.info("Successfully generated price data")
             return data
@@ -228,28 +266,13 @@ def extract_price_data_selenium(driver):
             EC.presence_of_element_located((By.TAG_NAME, "body"))
         )
         
-        # First try to click on the contract month if it exists
-        try:
-            month_buttons = driver.find_elements(By.CSS_SELECTOR, "[role='tab']")
-            for button in month_buttons:
-                if any(month in button.text for month in ['Apr', 'May', 'Jun']):
-                    button.click()
-                    time.sleep(2)
-                    break
-        except Exception as e:
-            logger.debug(f"Month button click failed: {str(e)}")
-        
-        # Multiple selectors to try for price
+        # Multiple selectors to try for price, ordered from most specific to least specific
         price_selectors = [
-            "//h2[contains(text(), '₹')]",  # Main price heading
-            "//span[contains(text(), '₹')]",  # Price in span
-            "//div[contains(@class, 'price')]//span[contains(text(), '₹')]",  # Price in div with class
-            "//div[contains(@class, 'price-details')]//span[contains(text(), '₹')]",  # Price in details
-            "//*[contains(text(), '₹')]"  # Any element with price
+            "//div[contains(@class, 'price-details')]//span[contains(text(), '₹')]",
+            "//h2[contains(text(), '₹')]",
+            "//div[contains(@class, 'price')]//span[contains(text(), '₹')]",
+            "//span[contains(text(), '₹') and string-length() < 50]"  # Avoid long text descriptions
         ]
-        
-        # Try to get the page source for debugging
-        logger.debug(f"Page source: {driver.page_source[:500]}...")
         
         price_value = None
         for selector in price_selectors:
@@ -257,9 +280,9 @@ def extract_price_data_selenium(driver):
                 elements = driver.find_elements(By.XPATH, selector)
                 for element in elements:
                     try:
-                        price_text = element.text
-                        if '₹' in price_text:
-                            # Extract numbers after ₹ symbol
+                        price_text = element.text.strip()
+                        # Only process short text that's likely to be a price
+                        if '₹' in price_text and len(price_text) < 50:
                             match = re.search(r'₹\s*([\d,.]+)', price_text)
                             if match:
                                 price_str = match.group(1).replace(',', '')
@@ -278,12 +301,12 @@ def extract_price_data_selenium(driver):
             logger.warning("Could not find price with any selector")
             return None
             
-        # Multiple selectors for change value
+        # More specific selectors for change value to avoid picking up description text
         change_selectors = [
-            "//span[contains(text(), '%') and contains(text(), '-') or contains(text(), '+')]",
-            "//div[contains(@class, 'change')]//span[contains(text(), '%')]",
-            "//div[contains(@class, 'price-details')]//span[contains(text(), '%')]",
-            "//*[contains(text(), '%') and (contains(text(), '-') or contains(text(), '+'))]"
+            "//div[contains(@class, 'price-details')]//span[contains(text(), '%') and string-length() < 20]",
+            "//span[contains(text(), '%') and contains(text(), '-') and string-length() < 20]",
+            "//span[contains(text(), '%') and contains(text(), '+') and string-length() < 20]",
+            "//span[contains(text(), '%') and string-length() < 20]"
         ]
         
         change_value = "0.00%"
@@ -293,10 +316,13 @@ def extract_price_data_selenium(driver):
                 for element in elements:
                     try:
                         change_text = element.text.strip()
-                        if '%' in change_text and ('-' in change_text or '+' in change_text):
-                            change_value = change_text
-                            logger.info(f"Found change {change_value} using selector: {selector}")
-                            break
+                        # Only process short text that's likely to be a percentage change
+                        if '%' in change_text and len(change_text) < 20:
+                            # Validate that it matches the expected format (+/-X.XX%)
+                            if re.match(r'^[+-]?\d+\.?\d*%$', change_text):
+                                change_value = change_text
+                                logger.info(f"Found change {change_value} using selector: {selector}")
+                                break
                     except Exception as e:
                         logger.debug(f"Failed to process change element text: {str(e)}")
                 if change_value != "0.00%":
